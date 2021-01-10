@@ -8,4 +8,5 @@ const (
 	Partition              // 2-way partition or 3-way partition in quick sort.
 	DoublePointer          // Scan array by double pointers.
 	CollisionPointer       // Scan array by the collision pointers.
+	SlidingWindow          // A sliding window to find the optimal solution.
 )
