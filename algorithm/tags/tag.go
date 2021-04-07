@@ -2,6 +2,8 @@ package tags
 
 type Array int
 
+type LUT int
+
 const (
 	_                Array = iota
 	Scan                   // Scan array
@@ -9,4 +11,10 @@ const (
 	DoublePointer          // Scan array by double pointers.
 	CollisionPointer       // Scan array by the collision pointers.
 	SlidingWindow          // A sliding window to find the optimal solution.
+)
+
+const (
+	_ LUT = iota
+	Set
+	Map
 )

@@ -31,7 +31,7 @@ func minWindow(s string, t string) string {
 				start = left
 			}
 			mapping[s[left]]++
-			if mapping[s[left]] == 1 {
+			if mapping[s[left]] > 0 {
 				counter--
 			}
 			left++

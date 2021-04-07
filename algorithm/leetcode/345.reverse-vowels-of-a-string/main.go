@@ -1,6 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/evanljp/algorithm/tags"
+)
+
+var _ = []tags.Array{tags.CollisionPointer}
 
 func reverseVowels(s string) string {
 	chars := []rune(s)
