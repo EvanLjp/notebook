@@ -5,7 +5,7 @@ import (
 	"github.com/evanljp/algorithm/tags"
 )
 
-var _ = []tags.LUT{tags.Set}
+var _ = []tags.LUT{tags.LookupTable}
 
 func intersection(nums1 []int, nums2 []int) []int {
 	m := make(map[int]struct{})

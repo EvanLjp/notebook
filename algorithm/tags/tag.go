@@ -15,6 +15,5 @@ const (
 
 const (
 	_ LUT = iota
-	Set
-	Map
+	LookupTable
 )
